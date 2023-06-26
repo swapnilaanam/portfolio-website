@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, html {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+
+/* ---------------------------
+        Universal Styles
+------------------------------ */
+
+*, html {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body {
+  background-color: #050810;
+}
