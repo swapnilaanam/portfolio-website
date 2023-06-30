@@ -1,0 +1,21 @@
+.project-1 {
+  background: url('../../assets/images/project1img.png');
+}
+
+.project-2 {
+  background: url('../../assets/images/project2img.png');
+}
+
+.project-3 {
+  background: url('../../assets/images/project3img.png');
+}
+
+.project-image {
+    background-size: 100%;
+    background-position: top;
+    transition: background-position ease-in-out 8s;
+}
+
+.project-image:hover {
+    background-position: bottom;
+}

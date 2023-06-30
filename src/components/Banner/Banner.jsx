@@ -19,7 +19,7 @@ const Banner = () => {
 
     return (
         <section className="lg:h-[660px] relative">
-            <div>
+            <div className="absolute -z-10">
                 <ParticlesCompo></ParticlesCompo>
             </div>
             <div className='w-full h-full lg:h-[94%] flex flex-col lg:flex-row justify-center items-center'>
@@ -47,7 +47,7 @@ const Banner = () => {
                     </p>
                     <div className="lg:ms-16 mt-12 lg:mt-16 flex flex-col-reverse lg:flex-row gap-7">
                         <Link to="https://drive.google.com/file/d/11_JIt90f3mM1_XKE4lUtSCXhearU1lbR/view?usp=drive_link" download className="px-7 py-4 rounded-md bg-green-600 text-white text-lg font-semibold hover:bg-green-700 border-0 capitalize">Hire Me</Link>
-                        <Link to="https://drive.google.com/file/d/11_JIt90f3mM1_XKE4lUtSCXhearU1lbR/view?usp=drive_link" download className="px-7 py-4 rounded-md bg-red-600 text-white text-lg font-semibold hover:bg-red-700 border-0 capitalize">Download Resume</Link>
+                        <Link to="https://drive.google.com/file/d/11_JIt90f3mM1_XKE4lUtSCXhearU1lbR/view?usp=drive_link" target="_blank" download className="px-7 py-4 rounded-md bg-red-600 text-white text-lg font-semibold hover:bg-red-700 border-0 capitalize">Download Resume</Link>
                     </div>
                 </div>
                 <div className='h-full mt-12 lg:mt-12 lg:w-1/2'>

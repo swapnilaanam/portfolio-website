@@ -101,7 +101,7 @@ const ParticlesCompo = () => {
                     },
                     pauseOnBlur: true,
                     background: {
-                        color: "transparent",
+                        color: "#050810",
                         image: "",
                         position: "50% 50%",
                         repeat: "no-repeat",
