@@ -1,0 +1,8 @@
+#navbar a {
+    color: white;
+    transition-property: none !important;
+}
+
+#navbar a:hover {
+    color: rgb(34, 197, 94) !important;
+}

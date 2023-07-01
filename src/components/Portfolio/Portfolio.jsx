@@ -11,20 +11,20 @@ const Portfolio = () => {
     }, [])
 
     return (
-        <section className="py-24">
+        <section className="bg-[#050810] pt-40 px-4 lg:px-0" id="portfolio">
             <h2 className="text-4xl text-white font-semibold text-center uppercase w-fit mx-auto shadow-white 
                 shadow-md px-8 py-3 border-0 border-[#050810] rounded-lg bg-transparent">
                 Portfolio
             </h2>
             <div className="mt-24 max-w-7xl mx-auto space-y-24">
-                <div className="card card-compact w-[800px] mx-auto rounded-md bg-base-200 shadow-xl" data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="800">
+                <div className="card card-compact lg:w-[800px] mx-auto rounded-md bg-base-200 shadow-xl" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="800">
                     <div className="overflow-hidden h-[341px]">
                         <div className="project-image h-full rounded-t-md project-3"></div>
                     </div>
                     <div className="card-body">
-                        <div className="flex justify-between items-center">
+                        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center">
                             <h2 className="text-3xl font-semibold text-black">Chef’s Diary</h2>
-                            <div className="flex justify-center items-center gap-3">
+                            <div className="mt-3 lg:mt-0 flex flex-wrap lg:flex-nowrap justify-center items-center gap-3">
                                 <div className="badge badge-neutral badge-lg">React JS</div>
                                 <div className="badge badge-neutral badge-lg">Tailwind</div>
                                 <div className="badge badge-neutral badge-lg">Firebase</div>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                                 <li>Cooking methods and required ingredients are well written for every recipe.</li>
                             </ul>
                         </div>
-                        <div className="card-actions mt-3 mb-1">
+                        <div className="card-actions mt-3 mb-1 flex-col lg:flex-row items-center">
                             <Link to="https://chef-recipe-hunter-467d1.web.app/" target="_blank" className="btn bg-green-600 hover:bg-green-700 text-white hover:text-white text-lg capitalize">
                                 Live Site
                             </Link>
@@ -55,14 +55,14 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-[800px] mx-auto rounded-md bg-base-200 shadow-xl" data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="800">
+                <div className="card card-compact lg:w-[800px] mx-auto rounded-md bg-base-200 shadow-xl" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="800">
                     <div className="overflow-hidden h-[341px]">
                         <div className="project-image h-full rounded-t-md project-2"></div>
                     </div>
                     <div className="card-body">
-                        <div className="flex justify-between items-center">
+                        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center">
                             <h2 className="text-3xl font-semibold text-black">Toys Yard</h2>
-                            <div className="flex justify-center items-center gap-3">
+                            <div className="mt-3 lg:mt-0 flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-3">
                                 <div className="badge badge-neutral badge-lg">React JS</div>
                                 <div className="badge badge-neutral badge-lg">Firebase</div>
                                 <div className="badge badge-neutral badge-lg">Node JS</div>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                                 <li>Added toys of a user can be on the My Toys page with the option to edit or delete those toys.</li>
                             </ul>
                         </div>
-                        <div className="card-actions mt-3 mb-1">
+                        <div className="card-actions mt-3 mb-1 flex-col lg:flex-row items-center">
                             <Link to="https://toy-marketplace-766c0.web.app/" target="_blank" className="btn bg-green-600 hover:bg-green-700 text-white hover:text-white text-lg capitalize">
                                 Live Site
                             </Link>
@@ -93,14 +93,14 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-[800px] mx-auto rounded-md bg-base-200 shadow-xl" data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="800">
+                <div className="card card-compact lg:w-[800px] mx-auto rounded-md bg-base-200 shadow-xl" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="800">
                     <div className="overflow-hidden h-[341px]">
                         <div className="project-image h-full rounded-t-md project-1"></div>
                     </div>
                     <div className="card-body">
-                        <div className="flex justify-between items-center">
+                        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center">
                             <h2 className="text-3xl font-semibold text-black">Sporty Smash</h2>
-                            <div className="flex justify-center items-center gap-3">
+                            <div className="mt-3 lg:mt-0 flex flex-wrap lg:flex-nowrap justify-center items-center gap-3">
                                 <div className="badge badge-neutral badge-lg">React JS</div>
                                 <div className="badge badge-neutral badge-lg">Express JS</div>
                                 <div className="badge badge-neutral badge-lg">MongoDB</div>
@@ -120,7 +120,7 @@ const Portfolio = () => {
                                 <li>The Stripe card payment system allows students to pay their fees and enroll in their classes.</li>
                             </ul>
                         </div>
-                        <div className="card-actions mt-3 mb-1">
+                        <div className="card-actions mt-3 mb-1 flex-col lg:flex-row items-center">
                             <Link to="https://summer-camp-school-ad589.web.app/" target="_blank" className="btn bg-green-600 hover:bg-green-700 text-white hover:text-white text-lg capitalize">
                                 Live Site
                             </Link>

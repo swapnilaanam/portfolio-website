@@ -12,12 +12,12 @@ const Skills = () => {
     }, []);
 
     return (
-        <section className="py-24 bg-[#050810]" id="skills">
+        <section className="pt-40 px-4 lg:px-0 bg-[#050810]" id="skills">
             <h2 className="text-4xl text-white font-semibold text-center uppercase w-fit mx-auto shadow-white 
                 shadow-md px-8 py-3 border-0 border-[#050810] rounded-lg bg-transparent">
                 Skills
             </h2>
-            <div className="mt-24 max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-10 text-black">
+            <div className="mt-24 max-w-7xl mx-auto flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-10 text-black">
                 <div className="bg-white flex justify-center items-center px-8 py-4 rounded-md gap-3" data-aos="flip-down">
                     <FaReact className="text-5xl text-sky-600" />
                     <h4 className="text-3xl font-semibold">React JS</h4>

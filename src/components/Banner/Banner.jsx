@@ -5,6 +5,7 @@ import Lottie from 'lottie-react';
 import { Typewriter } from 'react-simple-typewriter';
 import ParticlesCompo from '../ParticlesCompo/ParticlesCompo';
 import { Link } from 'react-router-dom';
+import myResume from '../../assets/pdf/Resume Of MD. Ashraf-Ul-Aanam Swapnil.pdf';
 
 const Banner = () => {
 
@@ -18,12 +19,12 @@ const Banner = () => {
     }
 
     return (
-        <section className="lg:h-[660px] relative">
+        <section className="lg:h-[660px] relative" id="banner">
             <div className="absolute -z-10">
                 <ParticlesCompo></ParticlesCompo>
             </div>
-            <div className='w-full h-full lg:h-[94%] flex flex-col lg:flex-row justify-center items-center'>
-                <div className='h-full px-4 lg:px-0 lg:w-1/2 text-3xl font-bold text-green-500 text-center lg:text-left'>
+            <div className="w-full h-full lg:h-[94%] flex flex-col lg:flex-row justify-center items-center">
+                <div className="h-full px-4 lg:px-0 lg:w-1/2 text-3xl font-bold text-green-500 text-center lg:text-left">
                     <div className="h-32 lg:h-9 flex flex-col lg:flex-row lg:ms-16 mt-12 lg:mt-36">
                         <p className="mr-4 text-white">
                             Hey, I am
@@ -46,8 +47,8 @@ const Banner = () => {
                         spider-man is! I guess, playing with web is favorite for both us!
                     </p>
                     <div className="lg:ms-16 mt-12 lg:mt-16 flex flex-col-reverse lg:flex-row gap-7">
-                        <Link to="https://drive.google.com/file/d/11_JIt90f3mM1_XKE4lUtSCXhearU1lbR/view?usp=drive_link" download className="px-7 py-4 rounded-md bg-green-600 text-white text-lg font-semibold hover:bg-green-700 border-0 capitalize">Hire Me</Link>
-                        <Link to="https://drive.google.com/file/d/11_JIt90f3mM1_XKE4lUtSCXhearU1lbR/view?usp=drive_link" target="_blank" download className="px-7 py-4 rounded-md bg-red-600 text-white text-lg font-semibold hover:bg-red-700 border-0 capitalize">Download Resume</Link>
+                        <Link to="https://drive.google.com/file/d/11_JIt90f3mM1_XKE4lUtSCXhearU1lbR/view?usp=drive_link" target="_blank" download className="px-7 py-4 rounded-md bg-green-600 text-white text-lg font-semibold hover:bg-green-700 border-0 capitalize">View Resume</Link>
+                        <a href={myResume} download className=" px-7 py-4 rounded-md bg-red-600 text-white text-lg font-semibold hover:bg-red-700 border-0 capitalize">Download Resume</a>
                     </div>
                 </div>
                 <div className='h-full mt-12 lg:mt-12 lg:w-1/2'>
